@@ -1,0 +1,152 @@
+
+/* GOOgle Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+/* common style or utilities */
+body{
+    background-color: rgb(238, 238, 247);
+}
+.container{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(34, 34, 172);
+}
+
+/*----------------- 
+    Banner part
+------------------ */
+
+.banners{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.banners img{
+    width: 600px;
+    margin: 60px;
+}
+.banners a{
+    text-decoration: none;
+    margin-left: 20%;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    color: white;
+    margin: 10% 20% 10% 10%;
+    padding-left: 10%;
+
+}
+.link-button{
+    padding: 13px 40px;
+    background-color: rgb(189, 39, 39);
+    color: white;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+
+/*-- top players info style  -- */
+.box-1{
+    width: 350px;
+    height: 450px;
+    margin: 0 7%;
+    text-align: center;
+    padding: 16px 1px;
+    background-color: whitesmoke;
+}
+.player-info{
+    padding-bottom: 50px;
+    mar
+}
+.text{
+    font-size: 20px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+
+}
+h3{
+    padding-right: 60%;
+}
+p{
+    color: gray;
+    margin-top: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*  top players info   */
+.container-2{
+   width: 100%;
+   padding-top: 5%;
+    background-color: white;
+}
+
+.top-players{
+    width: 62%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 35px;
+    margin: 0 auto;
+}
+
+
+
+
+/* botto-part */
+
+
+.bottom{
+    height: 200px;
+    background-color: white;
+    padding-top: 5%;
+
+}
+
+.bottom-part{
+    text-align: center;
+}
+.bottom img{
+    
+    width: 400px;
+}
+.fab, .fas {
+    font-size: 25px;
+    color: gray;
+}
+footer{
+    padding-top: 2%;
+    text-align: center;
+}
+span{
+    font-size: 20px;
+}
+.fa-copyright{
+    font-size: 12px;
+}
+
+
+
+/* banner part icon */
+.fa-arrow-right{
+    font-size: 15px;
+    color: white;
+}
+
+/* media Queries */
+
+/* Mobile devices */
+@media only screen and (max-width: 688px) {
+    .container{
+        width: 100%;
+    }
+    .banners{
+        background-color: teal;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-image{
+        flex-direction: column;
+    }
+}
